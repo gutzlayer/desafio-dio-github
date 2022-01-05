@@ -1,0 +1,60 @@
+
+Olá, mundo! 
+
+Meu nome é Gustavo, estou escrevendo um pouco do que já vivenciei em GIT e Github, 
+tanto nos estudos, quanto na minha experiência como dev.
+
+git init - Esse será o seu primeiro comando, pois ele será para criar um novo 
+repositório, pode ser a partir de uma pasta ou não.
+
+git clone - Esse, como o nome já diz, é para clonar repositórios da internet, 
+Github, Bitbucket e etc... Isso serve para você começar a trablahar em um 
+projeto já em andamento, acompanhar algum projeto para estudo ou pegar um 
+projeto para dar a sua cara.
+
+git branch - Esse comando é utilizado para ver as branchs que você está 
+trabalhando, mas com algumas variações desse comando, você pode criar a sua 
+branch também e colocar ela no projeto remotamente, assim como coloquei 
+simultaneamente (git branch <nome-da-branch>),(git push -u <remote> <nome-da-branch>).
+
+git checkout - Esse é utilizado para ver quais arquivos e commits tem na branch 
+selecionada, mas não é só isso, ela também pode ser usada para "andar" em outras 
+branchs e até mesmo criar uma e já pular para dentro, colocarei simultaneamente 
+essa variações. (git checkout <nome-da-ramificação>), (git checkout -b <nome-da-branch>).
+
+git status - Sempre utilizei para ver os arquivos a serem adicionados e os que 
+foram adicionados ou modificados, assim adicionando-os.
+
+git add - Eu uso esse comando para adicionar os arquivos recém-criados, os modificados 
+e os não adicionados, utilizo git add -A, dessa forma eu adiciono todos os 
+arquivos no projeto.
+
+git commit - o comando de git commit eu utilizo para enviar para alguma plataforma 
+de versionamento de versão, no caso o Github, Bitbucket e etc... 
+Para ficar algo melhor entendível, você pode adicionar uma mensagem do que está 
+adicionando e não deixar os seus amigos devs perdidos com essa nova atualização, 
+para isso você fará o seguinte comando: (git commit -m "mensagem explicando a mudança no código")
+
+git push - Esse comando é utilizado para você enviar os seus commits para o 
+servidor, onde está hospedado o seu projeto. Porém, se sua branch é nova, você deverá 
+adicionar o seguinte comando: (git push -u origin <nome-do-branch>).
+
+git pull - Ele é utilizado para puxar informações do repositório remoto, mas se 
+esse projeto foi criado da sua máquina, verá as atualizações dela.
+
+git revert - Esse é muito utilizado para desfazer as khdas do seu dia-a-dia, 
+como o nome já diz, ele reverte aquilo que não era para ser enviado.
+
+git merge - E aqui que geralmente acontecem as khdas, dependendo da quantidade 
+de devs trabalhando em um projeto e fazendo as mesmas coisas, isso atrapalha um pouco, 
+porém, é um mal necessário. Esse comando é usado para mesclar a branch que você 
+está trabalhando com uma outra branch ou diretamente para a branch main.
+
+Isso é um pouco do que usei, estão faltando muitos outros, mas foi o que eu lembrei 
+ao digitar e os mais utilizados por mim nesse período de trabalho e estudos, 
+revivi um pouco de minha experiência e isso é gratificante.
+
+Isso pode parecer muita coisa para aprender, mas verão que é nada e estarão fazendo 
+no automático.
+
+Um bom ano para todos nós!!
